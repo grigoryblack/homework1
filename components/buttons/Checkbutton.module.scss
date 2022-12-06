@@ -1,0 +1,76 @@
+.checkbutton, .checkbutton_active, .checkbutton_disabled{
+  box-sizing: border-box;
+  display: inline-flex;
+  width: 400px;
+  height: 50px;
+  border-radius: 3px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 13px 72px 13px 10px;
+
+
+  &__frame {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 14px;
+    width: 318px;
+    height: 24px;
+
+    &_check {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+      box-sizing: border-box;
+
+      &_out {
+        border: 2px solid #828282;
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        display: flex;
+        position: relative;
+      }
+    }
+
+    &_text {
+      color: black;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+.checkbutton_active {
+  box-shadow: 0 0 4px #BDBDBD;
+
+  .checkbutton__frame_check_out {
+    border: 2px solid #00EAD9;
+    background: #00EAD9;
+  }
+}
+
+.checkbutton:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+  .checkbutton__frame_check_out {
+    border: 2px solid #00EAD9;
+  }
+}
+
+.checkbutton_disabled {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  cursor: not-allowed;
+
+  .checkbutton__frame_check_out {
+    border: 2px solid #BDBDBD;
+  }
+
+  .checkbutton__frame_text {
+    color: #BDBDBD;
+  }}
+
+

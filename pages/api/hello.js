@@ -1,5 +1,10 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+const { MongoClient } = require('mongodb');
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+export default async function handler(req, res) {
+  const uri = 'mongodb://localhost:27017';
+  const client = new MongoClient(uri);
+  const db = client.db('testsdb');
+  const collection = db.collection('tests');
+  const test = await collection.findOne({ title: "Тест номер один"});
+  res.json(test);
 }

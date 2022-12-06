@@ -1,0 +1,121 @@
+[{
+  "title": "Тест номер один",
+  "timeLimit": 3600,
+  "questions": [
+    {
+      "text": "Когда было крещение Руси",
+      "timeLimit": 60,
+      "type": "radio",
+      "answers": [
+        {
+          "text": "600",
+          "valid": false
+        },
+        {
+          "text": "1002",
+          "valid": false
+        },
+        {
+          "text": "988",
+          "valid": true
+        },
+        {
+          "text": "1945",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "text": "Первый президент России",
+      "timeLimit": 60,
+      "type": "radio",
+      "answers": [
+        {
+          "text": "Путин",
+          "valid": false
+        },
+        {
+          "text": "Брежнев",
+          "valid": false
+        },
+        {
+          "text": "Ельцин",
+          "valid": true
+        },
+        {
+          "text": "Ленин",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "text": "Дата начала ВОВ",
+      "timeLimit": 60,
+      "type": "radio",
+      "answers": [
+        {
+          "text": "1945",
+          "valid": false
+        },
+        {
+          "text": "1941",
+          "valid": false
+        },
+        {
+          "text": "1939",
+          "valid": true
+        },
+        {
+          "text": "1950",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "text": "Кого не было в Антигитлеровской коалиции?",
+      "timeLimit": 60,
+      "type": "radio",
+      "answers": [
+        {
+          "text": "США",
+          "valid": false
+        },
+        {
+          "text": "Британия",
+          "valid": false
+        },
+        {
+          "text": "Италия",
+          "valid": true
+        },
+        {
+          "text": "Китай",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "text": "Развал СССР ",
+      "timeLimit": 60,
+      "type": "radio",
+      "answers": [
+        {
+          "text": "1925",
+          "valid": false
+        },
+        {
+          "text": "1998",
+          "valid": false
+        },
+        {
+          "text": "1991",
+          "valid": true
+        },
+        {
+          "text": "1936",
+          "valid": false
+        }
+      ]
+    }
+  ]
+}]
