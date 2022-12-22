@@ -1,6 +1,6 @@
 import styles from "./Checkbutton.module.scss";
 import React from "react";
-import Check from "../../public/img/Check.svg";
+import dotPic from "../img/dot.svg";
 import Image from "next/image";
 
 export function Checkbutton(props) {
@@ -14,7 +14,7 @@ export function Checkbutton(props) {
         <div className={styles.checkbutton__frame}>
             <div className={styles.checkbutton__frame_check}>
                 <div className={styles.checkbutton__frame_check_out}>
-                    <Image className={styles.checkbutton__frame_check_out_dot} src={Check} layout={"fill"}/>
+                    <Image className={styles.checkbutton__frame_check_out_dot} src={dotPic} layout={"fill"}/>
                 </div>
             </div>
             <div className={styles.checkbutton__frame_text}>

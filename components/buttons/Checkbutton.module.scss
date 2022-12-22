@@ -8,6 +8,7 @@
   background: white;
   padding: 13px 72px 13px 10px;
 
+  margin-bottom: 50px;
 
   &__frame {
     display: flex;
@@ -50,6 +51,10 @@
     border: 2px solid #00EAD9;
     background: #00EAD9;
   }
+
+  .checkbutton__frame_check_out_dot {
+
+  }
 }
 
 .checkbutton:hover {
@@ -63,14 +68,12 @@
 
 .checkbutton_disabled {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-  cursor: not-allowed;
 
   .checkbutton__frame_check_out {
     border: 2px solid #BDBDBD;
   }
 
   .checkbutton__frame_text {
-    color: #BDBDBD;
-  }}
-
-
+    color: #BDBDBD;;
+  }
+}

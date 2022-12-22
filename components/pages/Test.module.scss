@@ -1,0 +1,198 @@
+.test {
+  background: url("../img/bg.png") no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.test_count {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+  &_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 32px;
+    top: 52px;
+    background: url("../img/backButton.png") no-repeat;
+    cursor: pointer;
+  }
+
+  &_numframe {
+    width: 34px;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 33px;
+    top: 128px;
+
+    &_numbers {
+      position: relative;
+      text-align: center;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      border-bottom: 1px solid #E0E0E0;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 24px;
+      color: #006666;
+      cursor: pointer;
+    }
+  }
+}
+
+.test_header {
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  left: 100px;
+  top: 32px;
+  width: 1820px;
+  height: 96px;
+
+  &_counter {
+    position: absolute;
+    display: flex;
+    top: 8px;
+    left: 32px;
+    width: 111px;
+    height: 48px;
+
+    &_icon {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("../img/question.png") no-repeat;
+    }
+
+    &_num {
+      position: absolute;
+      top: 12px;
+      right: 3px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 24px;
+      color: #006666;
+    }
+  }
+
+  &_timer {
+    position: absolute;
+    display: flex;
+    top: 8px;
+    left: 167px;
+    width: 114px;
+    height: 48px;
+
+    &_icon {
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url("../img/timer.png") no-repeat;
+    }
+
+    &_num {
+      position: absolute;
+      top: 9px;
+      right: 0;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px;
+      color: #006666;
+    }
+  }
+
+  &_name {
+    position: absolute;
+    top: 20px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    text-transform: uppercase;
+    color: #828282;
+  }
+}
+
+.test_questframe {
+  width: 824px;
+  height: 374px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -187px 0 0 -412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+
+  &_text {
+    width: 650px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+  }
+
+  &_answerframe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 824px;
+    height: 124px;
+  }
+
+  &_buttonframe {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    gap: 48px;
+    width: 259px;
+    height: 42px;
+    margin-top: 40px;
+
+
+    &_skipbutton {
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: #006666;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+}
